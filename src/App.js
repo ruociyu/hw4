@@ -1,6 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import UserProfile from './userprofile';
 
+function App()
+{
+  return (
+    <div className="App">
+      <div>
+        <UserProfile />
+      </div>
+    </div>
+  );
+}
+
+/*
 function App() {
   return (
     <div className="App">
@@ -21,5 +34,5 @@ function App() {
     </div>
   );
 }
-
+*/
 export default App;
